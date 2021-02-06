@@ -1,0 +1,27 @@
+name: image_sequence_delineator
+description: A new Flutter application.
+authors:
+  -Ramanan Ramesh
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^2.3.3
+  spring_button: ^1.0.8+1
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/ImageSequence/
+
